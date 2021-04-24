@@ -1,3 +1,31 @@
+/* 1080 x 564  75%*/
+
+@media(max-width: 1080px){
+
+    .content-full{
+       width: 100%;
+   }
+
+   .content-full .row ul li{
+       font-size: 1.3em;
+   }
+}
+
+/* 768 x 564  100%*/
+
+@media(max-width: 768px){
+
+   .content-full{
+       width: 100%;
+   }
+
+   .content-full .row ul li{
+       font-size: 1.1em;
+   }
+}
+
+
+
 @media(max-width:480px){
     .content-full{
         display: none;
@@ -43,5 +71,31 @@
         width: 100%;
         text-decoration: none;
         color: #020202;
+    }
+}
+
+/* 370 x 564  100%*/
+
+@media(max-width: 370px){
+
+    .content-full{
+        width: 100%;   
+        height: 10vh;
+    }
+    
+    .content-full .row{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-full .row ul li{
+        font-size: 20px;
+    }
+
+    .content-full .row ul li a{
+        font-size: 50px;
     }
 }
